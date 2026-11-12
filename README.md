@@ -111,7 +111,7 @@ Example task:
 
 ### Try it with curl
 
-(On Windows PowerShell, type `curl.exe` instead of `curl`, or use Git Bash.)
+On Windows, run these in **Git Bash** (installed with Git for Windows). Windows PowerShell 5.1 removes the inner quotes from JSON arguments, so the POST and PATCH examples fail there with a 400 "Unterminated string in JSON" error.
 
 ```bash
 # Create (201)
